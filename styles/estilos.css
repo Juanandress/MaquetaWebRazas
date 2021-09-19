@@ -6,25 +6,48 @@ ul{
     padding: 0px;
     margin: 0px;
 }
-
 .navbar{
     display: flex;
     justify-content: space-between;
     padding: 10px;
 }
-
 .buscar{
     background-color: white;
     border: 1px solid gray;
     padding: 4px;
     border-radius: 8px;
 }
-
 .buscar:focus-within{
     border: 1px solid blue;
 }
-
 .buscar > input{
     outline: none;
     border: 0px;
+}
+.button{
+   border: 0px;
+   padding: 5px 10px;
+   border-radius: 10px;
+   font-weight: bolder;
+}
+.button:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+}
+.logo{
+    height: 70px;
+}
+.mainButton{
+    background-color: rgb(5, 212, 5);
+    color: white;
+}
+.mainButton:hover{
+    box-shadow: 1px 1px green;
+}
+.secondaryButton{
+    background-color: rgb(95, 195, 253);
+    color: white;
+}
+.secondaryButton:hover{
+    box-shadow: 1px 1px rgb(95, 195, 253);
 }
