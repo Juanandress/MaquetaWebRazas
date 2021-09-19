@@ -6,32 +6,31 @@ ul{
     padding: 0px;
     margin: 0px;
 }
-
 .navbar{
     display: flex;
     justify-content: space-between;
     padding: 10px;
 }
-
 .button{
-    border: 0px;
-    padding: 5px 10px;
-    border-radius: 10px;
-    font-weight: bolder;
+   border: 0px;
+   padding: 5px 10px;
+   border-radius: 10px;
+   font-weight: bolder;
 }
 .button:hover{
     cursor: pointer;
     transform: scale(1.1);
 }
+.logo{
+    height: 70px;
+}
 .mainButton{
     background-color: rgb(5, 212, 5);
     color: white;
 }
-
 .mainButton:hover{
     box-shadow: 1px 1px green;
 }
-
 .secondaryButton{
     background-color: rgb(95, 195, 253);
     color: white;
