@@ -10,12 +10,22 @@ ul{
     display: flex;
     justify-content: space-between;
     padding: 10px;
+    background-color: rgb(195, 196, 202);
+    border-bottom: 1px solid gray;
+    box-shadow: 1px 1px gray;
+}
+.navbar > li{
+    display: flex;
+    align-items: center;
 }
 .buscar{
     background-color: white;
     border: 1px solid gray;
     padding: 4px;
     border-radius: 8px;
+    width: 250px;
+    display: flex;
+    justify-content: space-between;
 }
 .buscar:focus-within{
     border: 1px solid blue;
@@ -50,4 +60,8 @@ ul{
 }
 .secondaryButton:hover{
     box-shadow: 1px 1px rgb(95, 195, 253);
+}
+
+.iconoBusqueda:hover{
+    color:green;
 }
